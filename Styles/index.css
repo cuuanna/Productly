@@ -1,21 +1,12 @@
-section {
-    width: 100%;
-    max-width: 1400px;
-    margin: 0 auto; 
+body{
+    
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color:#2F281E ;
+  margin: 0;
+  
 }
-
-body {
-      font-family: 'Arial', sans-serif;
-      color: #2C2C2C;
-      line-height: 26px;
-}
-
-header {
-display: flex;
-justify-content: space-around;
-flex-direction: row;
-margin-top: 42px;
-}  
 
 .navbar{
     display: flex;
@@ -29,7 +20,7 @@ margin-top: 42px;
 .navbar ul {
     display: flex;
     list-style: none;
-    margin: 0;
+    margin: 0 0 0 600px;
     padding: 0;
     gap: 20px;
 }
@@ -39,126 +30,143 @@ margin-top: 42px;
     text-decoration: none;
     font-size: 14px;
 }
-
-.buttons {
+header {
 display: flex;
-}
+justify-content: space-around;
+flex-direction: row;
+margin-top: 42px;
+width: 100%;
+} 
 
 .vit_knapp {
-  border-radius: 4px;
+  background-color: #FFFFFF;
   border-color: #BCD0E5;
   color: #173A56;
-  padding: 15px 32px;
+  border-radius: 4px;
+  padding: 12px 28px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-family: 'poppins';
-  font-style: bold;
+  font-family: 'Poppins';
   font-size: 16px;
 }
 
 .orange_knapp{
   background-color: #FF9900;
-  border-radius: 4px;
   border-color: #FF9900;
   color: #FFFFFF;
-  padding: 15px 32px;
+  border-radius: 4px;
+  padding: 12px 28px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-family: 'poppins';
-  font-style: bold;
+  font-family: 'Poppins';
   font-size: 16px; 
 }
 
-button {
-   background-color: #FF9900;
-   border-radius: 4px;
-   border-color: #FF9900;
-   color: #FFFFFF;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-family: 'poppins';
-   font-style: bold;
-   font-size: 16px; 
+.nav-knappar {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
 }
 
-h2 {
-   font-size: 36px;
-   font-family: 'poppins';
-   font-style: bold;
-   color: #2F281E;
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 60px; 
 }
 
-h3 {
-   font-size: 18px;
-   font-family: 'poppins';
-   font-style: normal;
-   font-weight: 100;
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+  max-width: 500px;
 }
 
-h6 {
-font-family: 'poppins';
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-} 
-
-.feature{
-display: flex;
-justify-content: space-between;
-align-items: center;
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  max-width: none;
+  width: auto;  
 }
 
-.hoppande_grupp {
-   align-items: flex-end;
+.hero-text h1 {
+  font-size: 44px;
+  line-height: 54px;  
+  white-space: normal;
+}
+.hero-buttons {
+  display: flex;
+  gap: 14px;
+  justify-content: flex-start;
 }
 
-.superpowers {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 45px;
-    text-align: center;
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 30px;
 }
 
-
-.superpowers-grid {
+.features h2 {
     display: flex;
     justify-content: center;
-    gap: 45px;
-    flex-wrap: wrap;
 }
 
-.power {
+.features-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  gap: 60px;  
+}
+
+.features-button {
+  display: flex;
+  justify-content: center;
+}
+
+.Selling-point {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-top: 110px;
+  gap: 104px; 
+}
+
+.pm-content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    gap: 15px;
-    max-width: 220px;
-    text-align: left;
 }
 
-.power img {
-    width: 50px;
-    height: 50px;
+.reverse{
+  flex-direction: row;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  
+}
+.orange-ikon{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 20px;
+
+}
+.orange p{
+  line-height:26px;
+  margin: 0;
 }
 
-.product-managers {
-   display: flex;
-   justify-content: center;
-}
 
-.Marketers{
-   display: flex;
-}
 
-footer {
-   display: flex;
-   flex-direction: row;
-   align-items: flex-start;
-   align-items: center;
-   justify-content: space-between;
+
+
+
+
+p {
+    font-size: 18px;
 }
